@@ -31,3 +31,14 @@ consolelog(accountbalance); // logging account balance after division
 let customername = "Luke Skywalker"; // assigning a variable for customer name and assigning it a string value
 let greeting = "Welcome, " + customername + "!"; // assigning a variable for greeting 
 consolelog(greeting); // logging greeting 
+
+// Task 5 Boolean Data Type
+
+let isLoggedIn = true;
+let hasaccess = false; 
+if (isLoggedIn && hasaccess) {
+    console.log("Access granted");}
+    else {
+    console.log("Access denied")
+    }
+
